@@ -46,6 +46,16 @@ export const ENDPOINTS = [
     ChainId: ChainId.MainnetBeta,
   },
   {
+    name: 'mainnet-beta (rpc pool)' as ENV,
+    endpoint: 'https://free.rpcpool.com',
+    ChainId: ChainId.MainnetBeta,
+  },
+  {
+    name: 'mainnet-beta (quiknode)' as ENV,
+    endpoint: 'https://old-frosty-hill.solana-mainnet.quiknode.pro/30ad9bc37844e6321f5f9bd92eb52646cf7305e5/',
+    ChainId: ChainId.MainnetBeta,
+  },
+  {
     name: 'mainnet-beta (Solana)' as ENV,
     endpoint: 'https://api.mainnet-beta.solana.com',
     ChainId: ChainId.MainnetBeta,
